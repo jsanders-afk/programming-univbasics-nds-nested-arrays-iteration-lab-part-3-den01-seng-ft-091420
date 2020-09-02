@@ -15,7 +15,7 @@ def join_nested_strings(src)
         if src[row_index][element_index] == String
            src[row_index][element_index] << message
         end
-        element_index += 1
+      element_index += 1
       end
     row_index += 1 
     end
