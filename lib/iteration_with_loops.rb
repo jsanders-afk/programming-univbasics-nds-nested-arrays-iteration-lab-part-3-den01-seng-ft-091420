@@ -20,6 +20,7 @@ def join_nested_strings(src)
     row_index += 1 
     end
   message.join
+  message
 end
 binding.pry
 
