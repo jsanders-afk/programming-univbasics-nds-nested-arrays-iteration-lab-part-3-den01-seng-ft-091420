@@ -14,7 +14,6 @@ def join_nested_strings(src)
       while element_index < src[row_index].length do
         if src[row_index][element_index].is_ a String
           print "yes"
-          src[row_index][element_index] << message
         end
       element_index += 1
       end
